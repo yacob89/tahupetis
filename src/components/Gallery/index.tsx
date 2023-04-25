@@ -13,7 +13,7 @@ const Gallery: FC<GalleryProps> = (
   // Your component logic here
 
   return (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-flow-col auto-cols-max">
       <div>
         <Image
           src={

@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
       <NavigationBar />
-      <div className="max-w-7xl mx-auto px-2 sm:px-2 lg:px-4">
-        <div className="py-2">
+      <div className="flex flex-row">
+        <div className="my-2 mx-2 mt-8">
           <Introduction />
         </div>
-        <div className="py-2">
+        {/* <div className="py-2">
           <Gallery />
-        </div>
+        </div> */}
       </div>
     </div>
   );
