@@ -13,9 +13,9 @@ export default function Home() {
         <div className="my-2 mx-2 mt-8">
           <Introduction />
         </div>
-        {/* <div className="py-2">
-          <Gallery />
-        </div> */}
+      </div>
+      <div className="flex justify-center flex-nowrap">
+        <Gallery />
       </div>
     </div>
   );
