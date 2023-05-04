@@ -15,7 +15,7 @@ const Header = () => {
       backgroundColor="rgba(255, 255, 255, 0.8)"
       backdropFilter="saturate(180%) blur(5px)"
       w="100%"
-      className="p-4 mb-8"
+      className="p-4 mb-8 z-50"
     >
       <Box p="2">
         <Heading size="md">Chakra App</Heading>

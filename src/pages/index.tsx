@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import NavigationBar from "@/components/NavigationBar";
 import Introduction from "@/components/Introduction";
 import Gallery from "@/components/Gallery";
 import Story from "@/components/Story";

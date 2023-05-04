@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Image from "next/image";
-import { Typography } from "@material-tailwind/react";
+import { Text } from "@chakra-ui/react";
 
 export interface IntroductionProps {
   // Define your component's props here
@@ -16,12 +16,12 @@ const Introduction: FC<IntroductionProps> = (
   return (
     <div className="flex flex-row justify-center flex-wrap">
       <div className="basis-1/2">
-        <Typography variant="h1" color="black" className="mb-2 mt-4 ml-4">
-          Tahu Petis, Pelengkap Momen Kebersamaan
-        </Typography>
-        <Typography color="black" className="font-normal mb-2 mt-4 ml-4">
-          Terbuat dari tahu premium dan petis yang gurih!
-        </Typography>
+        <div className="m-8">
+          <Text fontSize="3xl">Tahu Petis, Pelengkap Momen Kebersamaan</Text>
+          <Text fontSize="xl">
+            Terbuat dari tahu premium dan petis yang gurih!
+          </Text>
+        </div>
       </div>
       <div className="flex basis-1/2 items-end justify-center">
         <Image
